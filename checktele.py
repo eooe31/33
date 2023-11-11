@@ -188,14 +188,13 @@ async def _(event):
 Caught by a sheikh 💸
 ⤷ ID : @{username}
 ⌯ Clicks ⤷ : {trys}
-⤷ 𝚃𝚈𝙿𝙴 : { `{choice}` }
+⤷ 𝚃𝚈𝙿𝙴 : {choice}
 ⤷ Sheikh : @x_o_x - @V_M_S 
     ''')
                     await event.client.send_message("@i_R_Y",  f'''
 Caught by a sheikh 💸
 ⤷ ID : @{username}
 ⌯ Clicks ⤷ : {trys}
-⤷ 𝚃𝚈𝙿𝙴 : { `{choice}` }
 ⤷ Sheikh : @x_o_x
     ''')
                     break
@@ -254,7 +253,6 @@ async def _(event):
 Caught by a sheikh 💸
 ⤷ ID : @{username}
 ⌯ Clicks ⤷ : {trys}
-⤷ 𝚃𝚈𝙿𝙴 : { `{choice}` }
 ⤷ Sheikh : @x_o_x - @V_M_S 
     ''')
                         break
@@ -289,7 +287,6 @@ Caught by a sheikh 💸
 Caught by a sheikh 💸
 ⤷ ID : @{username}
 ⌯ Clicks ⤷ : {trys}
-⤷ 𝚃𝚈𝙿𝙴 : { `{choice}` }
 ⤷ Sheikh : @x_o_x - @V_M_S 
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
